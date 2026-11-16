@@ -25,4 +25,4 @@ sizes = [16, 24, 32, 48, 64, 128, 256]
 big = draw(256)
 big.save("app.ico", sizes=[(s, s) for s in sizes])
 big.save("app_preview.png")
-print("app.ico готов")
+print("app.ico ready")
